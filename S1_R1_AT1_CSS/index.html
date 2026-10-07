@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix - Assistência Técnica e Soluções em TI</title>
+    <!-- Vinculação do arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho com o nome da empresa e navegação -->
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="logo">TechFix</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Principal / Boas-vindas -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Soluções em TI Rápidas e Eficientes para sua Empresa</h2>
+                <p>Cuidamos da sua tecnologia para você focar no que realmente importa: o seu negócio.</p>
+                <a href="#contato" class="botao">Solicitar Orçamento</a>
+            </div>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="servicos" class="servicos">
+            <div class="container">
+                <h2 class="titulo-secao">Nossos Serviços</h2>
+                
+                <div class="grid-servicos">
+                    
+                    <!-- Card de Serviço 1 -->
+                    <article class="card-servico">
+                        <h3>Manutenção de Computadores</h3>
+                        <p>Formatamos, limpamos e realizamos upgrade de hardware para garantir o melhor desempenho dos seus equipamentos.</p>
+                    </article>
+
+                    <!-- Card de Serviço 2 -->
+                    <article class="card-servico">
+                        <h3>Suporte e Redes</h3>
+                        <p>Instalação e configuração de redes Wi-Fi e cabeadas, além de suporte técnico preventivo e corretivo.</p>
+                    </article>
+
+                    <!-- Card de Serviço 3 -->
+                    <article class="card-servico">
+                        <h3>Criação de Sites</h3>
+                        <p>Desenvolvimento de páginas modernas, rápidas e otimizadas para celulares para divulgar sua empresa.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2 class="titulo-secao">Fale Conosco</h2>
+
+                <div class="conteudo-contato">
+                    <!-- Informações diretas -->
+                    <div class="info-contato">
+                        <h3>Informações de Atendimento</h3>
+                        <p><strong>Endereço:</strong> Av. Central, 1000 - Sala 202, Centro</p>
+                        <p><strong>Telefone / WhatsApp:</strong> (11) 99999-8888</p>
+                        <p><strong>E-mail:</strong> contato@techfix.com.br</p>
+                        <p><strong>Horário:</strong> Segunda a Sexta, das 08h às 18h</p>
+                    </div>
+
+                    <!-- Formulário simples -->
+                    <form class="formulario">
+                        <h3>Envie uma mensagem</h3>
+                        
+                        <div class="campo">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos te ajudar?" required></textarea>
+                        </div>
+
+                        <button type="submit" class="botao">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 TechFix Soluções em TI. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
